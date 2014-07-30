@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#gets our user values and working directory
+# Gets our user values and working directory
 directory=${PWD##*/}
 gitUser=$(git config github.user)
 
